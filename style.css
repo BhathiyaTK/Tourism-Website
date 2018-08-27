@@ -32,7 +32,7 @@ nav{
 	color: #fff;
 	font-family: Roboto;
 	font-size: 13px;
-	padding: 11px 20px;
+	padding: 11px 15px;
 	font-weight: 300;
 	text-decoration: none;
 	transition: 0.3s;
@@ -52,10 +52,10 @@ nav{
 	display: none;
 }
 .logo{
-	position: fixed;
+	position: absolute;
 	width: 52%;
-	margin: 0;
-	padding: 15px;
+	margin: 15px 0 0 0;
+	padding: 0;
 }
 .logo img{ 
 	width: 20%;
@@ -95,8 +95,8 @@ nav{
 	.logo{
 		position: fixed;
 		top: 0;
-		margin-top: 20px;
-		padding: 20px 15px;
+		margin-top: 45px;
+		padding: 0;
 	}
 	.logo img{
 		margin-top: 8px; 
@@ -106,7 +106,7 @@ nav{
 		text-align: center;
 	}
 	.menu1 ul li{
-		padding: 10px 15px;
+		padding: 10px 0px;
 	}
 	.menu1 ul li a{
 		font-size: 12px;
