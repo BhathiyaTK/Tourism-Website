@@ -26,14 +26,16 @@ nav{
 }
 .menu1 ul li{
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 10px 0px;
 }
 .menu1 ul li a{
 	color: #fff;
 	font-family: Roboto;
 	font-size: 13px;
+	padding: 11px 20px;
 	font-weight: 300;
 	text-decoration: none;
+	transition: 0.3s;
 }
 .lower_navbar{
 	background: rgba(0,0,0,0.8);
@@ -51,9 +53,9 @@ nav{
 }
 .logo{
 	position: fixed;
-	width: 65%;
+	width: 52%;
 	margin: 0;
-	padding: 10px 15px;
+	padding: 15px;
 }
 .logo img{ 
 	width: 20%;
@@ -69,19 +71,22 @@ nav{
 	padding: 0;
 	text-align: right;
 	transition: 1s;
+	z-index: 999;
 }
 .menu2 ul li{
 	display: inline-block;
-	padding: 25px 25px;
+	padding: 25px 0px;
 	text-transform: uppercase;
 }
 .menu2 ul li a{
 	color: #fff;
 	font-family: Roboto;
+	padding: 12px 15px;
 	font-size: 14px;
 	font-weight: 300;
 	letter-spacing: 0.7px;
 	text-decoration: none;
+	transition: 0.2s;
 }
 .fa-caret-down{
 	margin-left: 5px;
@@ -130,4 +135,10 @@ nav{
 	.menu-icon{
 		display: block;
 	}
+}
+.menu1 ul li a:hover{
+	background: #3eaeef;
+}
+.menu2 ul li a:hover{
+	background: #717577;
 }
