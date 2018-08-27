@@ -7,12 +7,13 @@ header{
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: url(images/Adams-Peak.jpg) no-repeat 50% 50%;
+	background: url(images/Adams-Peak-1.jpg) no-repeat 50% 50%;
 	background-size: cover;
 }
 nav{
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 }
 .upper_navbar{
 	background: #0a1a56;
@@ -141,4 +142,26 @@ nav{
 }
 .menu2 ul li a:hover{
 	background: #717577;
+}
+.header-title{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	height: 100%;
+	font-family: Roboto;
+	color: white;
+	top: 50%;
+	left: 18%;
+	transform: (50%, 50%)
+}
+#main-title{
+	font-size: 60px;
+	text-shadow: 5px 5px 10px black;
+}
+#sub-title{
+	font-size: 30px;
+	text-shadow: 5px 5px 10px black;
+}
+#main-title span{
+	font-weight: bold;
 }
