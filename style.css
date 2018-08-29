@@ -7,7 +7,7 @@ header{
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: url(images/Adams-Peak-1.jpg) no-repeat 50% 50%;
+	background: url(images/Adams-Peak-2.jpg) no-repeat 50% 50%;
 	background-size: cover;
 }
 nav{
@@ -87,7 +87,7 @@ nav{
 	font-weight: 300;
 	letter-spacing: 0.7px;
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.3s;
 }
 .fa-caret-down{
 	margin-left: 5px;
@@ -147,10 +147,10 @@ nav{
 	position: absolute;
 	text-transform: uppercase;
 	text-align: center;
-	height: 100%;
+	height: 300px;
 	font-family: Roboto;
 	color: white;
-	top: 50%;
+	top: 45%;
 	left: 18%;
 	transform: (50%, 50%)
 }
@@ -159,9 +159,30 @@ nav{
 	text-shadow: 5px 5px 10px black;
 }
 #sub-title{
-	font-size: 30px;
+	font-size: 25px;
+	margin: 10px 0 20px 0;
 	text-shadow: 5px 5px 10px black;
 }
 #main-title span{
+	font-weight: 700;
+}
+#title-button{
+	margin: 50px;
+}
+#title-botton:hover{
+	color: #fff;
+}
+#title-button a{
+	color: #000;
+	background: #fff;
+	text-decoration: none;
 	font-weight: bold;
+	padding: 15px 25px;
+	border: 3px solid #fff;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+#title-button a:hover{
+	color: #fff;
+	background: transparent;
 }
