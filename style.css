@@ -1,148 +1,127 @@
-html, body{
+body, html{
 	margin: 0;
 	padding: 0;
+	font: 1em Roboto;
 }
 header{
 	width: 100%;
 	height: 100vh;
-	margin: 0;
-	padding: 0;
-	background: url(images/Adams-Peak-2.jpg) no-repeat 50% 50%;
+	background: url(images/Adams-Peak-2.jpg);
 	background-size: cover;
+	background-position: center;
 }
 nav{
 	position: fixed;
 	width: 100%;
+	height: auto;
+	color: #fff;
 	z-index: 999;
 }
 .upper_navbar{
-	background: #0a1a56;
+	background-color: #112233; 
+}
+.menu1{
+	width: 90%;
+	margin: 0 auto;
 }
 .menu1 ul{
-	list-style: none;
-	width: 90%;
-	margin: 0px auto;
 	padding: 0;
-	transition: 1s;
+	margin: 0;
 }
 .menu1 ul li{
+	list-style-type: none;
 	display: inline-block;
-	padding: 10px 0px;
+	line-height: 40px;
+	padding: 0px 20px;
 }
 .menu1 ul li a{
 	color: #fff;
-	font-family: Roboto;
-	font-size: 13px;
-	padding: 11px 15px;
-	font-weight: 300;
+	font-size: 10pt;
 	text-decoration: none;
+}
+.menu1 ul li:hover{
+	background-color: #143770;
 	transition: 0.3s;
 }
-.lower_navbar{
-	background: rgba(0,0,0,0.8);
-}
 .menu-icon{
-	width: 100%;
-	z-index: 999;
-	right: 20px;
-	text-align: right;
-	box-sizing: border-box;
-	padding: 15px 20px;
-	cursor: pointer;
-	color: #fff;
 	display: none;
 }
-.logo{
-	position: absolute;
-	width: 52%;
-	margin: 15px 0 0 0;
-	padding: 0;
-}
-.logo img{ 
-	width: 20%;
+/*//////////////////////////lower navbar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.lower_navbar{
+	width: 100%;
+	height: 70px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
 }
 .lower_navbar_content{
 	width: 90%;
-	margin: 0px auto;
-	padding: 0;
+	margin: 0 auto;
 }
-.menu2 ul{
-	list-style: none;
+.lower_navbar .logo{
+	float: left;
+	height: 50px;
+	padding: 10px 0px;
+}
+.lower_navbar .logo img{
+	width: 60%;
+}
+.lower_navbar ul{
+	float: right;
+	padding: 0;
 	margin: 0;
-	padding: 0;
-	text-align: right;
-	transition: 1s;
-	z-index: 999;
 }
-.menu2 ul li{
+.lower_navbar ul li{
+	list-style-type: none;
 	display: inline-block;
-	padding: 25px 0px;
+	line-height: 70px;
+	font-size: 11pt;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
-.menu2 ul li a{
+.lower_navbar ul li a{
 	color: #fff;
-	font-family: Roboto;
-	padding: 12px 15px;
-	font-size: 14px;
-	font-weight: 300;
-	letter-spacing: 0.7px;
 	text-decoration: none;
+	padding: 25px 20px;
+}
+.lower_navbar ul li:hover{
+	background-color:#333;
 	transition: 0.3s;
 }
+.nav-content{
+	position: absolute;
+	top: 112px;
+	overflow: hidden;
+	background-color: #111;
+	max-height: 0;
+}
+.nav-sub ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.nav-sub ul li{
+	display: block;
+	line-height: 50px;
+	padding: 0 20px;
+	height: 50px;
+	font-size: 11pt;
+	text-transform: none;
+}
+.nav-sub ul li a{
+	display: inline-block;
+	padding:0;
+}
+.lower_navbar ul li a:focus{
+	background-color: #333;
+}
+.lower_navbar ul li a:focus ~ .nav-content{
+	max-height: 400px;
+	transition: max-height 0.4s ease-in;
+}
 .fa-caret-down{
-	margin-left: 5px;
+	padding-left: 8px;
 }
-@media(max-width: 600px){
-	.logo{
-		position: fixed;
-		top: 0;
-		margin-top: 45px;
-		padding: 0;
-	}
-	.logo img{
-		margin-top: 8px; 
-		width: 64%;
-	}
-	.menu1 ul{
-		text-align: center;
-	}
-	.menu1 ul li{
-		padding: 10px 0px;
-	}
-	.menu1 ul li a{
-		font-size: 12px;
-	}
-	.menu2 ul{
-		text-align: center;
-		max-height: 0px;
-		display: none;
-		background: #000;
-	}
-	.showing{
-		max-height: 20em;
-		display: block;
-		transition: 0.5s;
-	}
-	.menu2 ul li{
-		background: #000;
-		box-sizing: border-box;
-		width: 100%;
-		padding: 24px 0;
-		text-align: center;
-	}
-	.menu2 ul li a{
-		font-size: 15px;
-	}
-	.menu-icon{
-		display: block;
-	}
-}
-.menu1 ul li a:hover{
-	background: #3eaeef;
-}
-.menu2 ul li a:hover{
-	background: #717577;
-}
+/*//////////////////////////Header title\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .header-title{
 	position: absolute;
 	text-transform: uppercase;
