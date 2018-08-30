@@ -145,6 +145,20 @@ nav{
 #main-title span{
 	font-weight: 700;
 }
+#search-bar{
+	width: 80%;
+	margin: 40px auto;
+	background-color: rgba(255,255,255, 0.5);
+}
+#search-text-bar{
+	float: left;
+}
+#search-button{
+	width: 20%;
+	background: #50c117;
+	padding: 10px 0;
+	text-align: center;
+}
 #title-button{
 	margin: 50px;
 }
@@ -152,13 +166,11 @@ nav{
 	color: #fff;
 }
 #title-button a{
-	color: #000;
-	background: #fff;
+	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 15px 25px;
-	border: 3px solid #fff;
-	border-radius: 30px;
+	padding: 15px;
+	border-radius: 40px;
 	transition: 0.4s;
 }
 #title-button a:hover{
