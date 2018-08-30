@@ -84,7 +84,7 @@ nav{
 	padding: 25px 20px;
 }
 .lower_navbar ul li:hover{
-	background-color:#333;
+	background-color:#444;
 	transition: 0.3s;
 }
 .nav-content{
@@ -112,7 +112,7 @@ nav{
 	padding:0;
 }
 .lower_navbar ul li a:focus{
-	background-color: #333;
+	background-color: #444;
 }
 .lower_navbar ul li a:focus ~ .nav-content{
 	max-height: 400px;
