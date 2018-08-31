@@ -121,7 +121,7 @@ nav{
 .fa-caret-down{
 	padding-left: 8px;
 }
-/*//////////////////////////Header title\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*//////////////////////////Header title div\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .header-title{
 	position: absolute;
 	text-transform: uppercase;
@@ -146,18 +146,35 @@ nav{
 	font-weight: 700;
 }
 #search-bar{
-	width: 80%;
-	margin: 40px auto;
-	background-color: rgba(255,255,255, 0.5);
+	margin: 30px 0;
+	padding: 20px auto;
+	display: inline-flex;
 }
-#search-text-bar{
-	float: left;
+#search-bar input{
+	padding: 0 10px;
+	line-height: 50px;
+	width: 480px;
+	border: none;
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: 700;
+	background: rgba(255,255,255, 0.6);
 }
-#search-button{
-	width: 20%;
-	background: #50c117;
-	padding: 10px 0;
-	text-align: center;
+#search-bar input:focus{
+	background: rgba(255,255,255, 1);
+}
+#search-bar button{
+	background: rgba(28,175,38,0.6);
+	border: none;
+	width: 110px;
+	line-height: 50px;
+}
+#search-bar button:hover{
+	background: rgba(28,175,38,1);
+}
+#search-bar button .fa-search{
+	vertical-align: middle;
+	color: #fff;
 }
 #title-button{
 	margin: 50px;
