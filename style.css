@@ -132,7 +132,7 @@ nav{
 	font-family: Roboto;
 	color: white;
 	top: 45%;
-	left: 18%;
+	left: 17.8%;
 	transform: (50%, 50%)
 }
 #main-title{
@@ -140,6 +140,7 @@ nav{
 	text-shadow: 5px 5px 10px black;
 }
 #sub-title{
+	font-family: Nunito;
 	font-size: 25px;
 	margin: 10px 0 20px 0;
 	text-shadow: 5px 5px 10px black;
@@ -224,10 +225,7 @@ nav{
 .image-set .image-box .image-content .text{
 	position: absolute;
 	text-transform: uppercase;
-	background: rgba(0,0,0,0.6);
-	font-size: 30px;
-	font-family: Roboto;
-	color: #fff;
+	background: rgba(0,0,0,0.7);
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -237,9 +235,13 @@ nav{
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
-.image-set .image-box .image-content a{
+.image-set .image-box .image-content .text a{
 	text-decoration: none;
+}
+.image-set .image-box .image-content .text h1{
 	color: #fff;
+	font-family: Nunito;
+	font-size: 50px;
 }
 .image-set .image-box:hover .image-content{
 	cursor: pointer;
