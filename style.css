@@ -11,14 +11,13 @@ header{
 	background-position: center;
 }
 nav{
-	position: fixed;
 	width: 100%;
 	height: auto;
 	color: #fff;
 	z-index: 999;
 }
 .upper_navbar{
-	background-color: #112233; 
+	background-color: #112255; 
 }
 .menu1{
 	width: 90%;
@@ -27,6 +26,7 @@ nav{
 .menu1 ul{
 	padding: 0;
 	margin: 0;
+	display: inline-flex;
 }
 .menu1 ul li{
 	list-style-type: none;
@@ -40,7 +40,7 @@ nav{
 	text-decoration: none;
 }
 .menu1 ul li:hover{
-	background-color: #143770;
+	background-color: #0a9cc9;
 	transition: 0.3s;
 }
 .menu-icon{
@@ -69,6 +69,7 @@ nav{
 	float: right;
 	padding: 0;
 	margin: 0;
+	display: inline-flex;
 }
 .lower_navbar ul li{
 	list-style-type: none;
@@ -98,6 +99,7 @@ nav{
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+	display: block;
 }
 .nav-sub ul li{
 	display: block;
@@ -151,7 +153,7 @@ nav{
 	display: inline-flex;
 }
 #search-bar input{
-	padding: 0 10px;
+	padding: 0 20px;
 	line-height: 50px;
 	width: 480px;
 	border: none;
@@ -170,6 +172,7 @@ nav{
 	line-height: 50px;
 }
 #search-bar button:hover{
+	cursor: pointer;
 	background: rgba(28,175,38,1);
 }
 #search-bar button .fa-search{
@@ -193,4 +196,53 @@ nav{
 #title-button a:hover{
 	color: #fff;
 	background: transparent;
+}
+.image-set{
+	width: 90%;
+	margin: 70px auto;
+}
+.image-set .image-box{
+	position: relative;
+	text-align: center;
+	display: inline-flex;
+}
+.image-set img{
+	width: 300px;
+	height: auto;
+}
+.image-set .image-box .image-content{
+	position: absolute;
+	overflow: hidden;
+	bottom: 1%;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 0%;
+	transition: .5s ease;
+
+}
+.image-set .image-box .image-content .text{
+	position: absolute;
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.6);
+	font-size: 30px;
+	font-family: Roboto;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.image-set .image-box .image-content a{
+	text-decoration: none;
+	color: #fff;
+}
+.image-set .image-box:hover .image-content{
+	cursor: pointer;
+	height: 25%;
+	transition: 0.5s;
 }
