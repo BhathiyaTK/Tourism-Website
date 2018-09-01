@@ -120,7 +120,7 @@ nav{
 	max-height: 400px;
 	transition: max-height 0.4s ease-in;
 }
-.fa-caret-down{
+.fas{
 	padding-left: 8px;
 }
 /*//////////////////////////Header title div\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
@@ -181,7 +181,7 @@ nav{
 	color: #fff;
 }
 #title-button{
-	margin: 50px;
+	margin: 30px;
 }
 #title-botton:hover{
 	color: #fff;
@@ -198,6 +198,7 @@ nav{
 	color: #fff;
 	background: transparent;
 }
+/*/////////////////////////////image set\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .image-set{
 	width: 90%;
 	margin: 70px auto;
@@ -247,4 +248,89 @@ nav{
 	cursor: pointer;
 	height: 25%;
 	transition: 0.5s;
+}
+/*////////////////////top attraction\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.top-attractions{
+	width: 100%;
+	height: auto;
+	background: #112233;
+}
+.top-attractions-content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.attractions-topic h1{
+	font-family: Nunito;
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0;
+}
+.sinharaja{
+	padding: 20px;
+	border-left: 3px dashed #fff;
+	border-bottom: 3px dashed #fff;
+}
+.sri-padaya{
+	padding: 20px;
+	border-right: 3px dashed #fff;
+}
+.sinharaja-content h1, .sri-padaya-content h1{
+	color: #fff;
+	font-family: Nunito;
+	letter-spacing: 1px;
+}
+.sinharaja-content, .sri-padaya-content{
+	width: 100%;
+	display: inline-flex;
+}
+.sinharaja-para, .sri-padaya-para{
+	width: 60%;
+}
+.sinharaja-para p, .sri-padaya-para p{
+	font-family: Nunito;
+	color: #999;
+}
+.sinharaja-para a, .sri-padaya-para a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px solid #fff;
+	transition: 0.4s;
+}
+.sinharaja-para a:hover, .sri-padaya-para a:hover{
+	background: #fff;
+	color: #000;
+}
+.sri-padaya-para p a{
+	text-align: right;
+}
+.sinharaja-image{
+	width: 40%;
+	padding: 20px 0px 0px 25px;
+}
+.sri-padaya-image{
+	width: 35%;
+	padding: 20px 25px 0px 0px;
+}
+.sinharaja-image img, .sri-padaya-image img{
+	width: 100%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+	transition: 0.4s;
+}
+.sinharaja-image img:hover{
+	transform: rotate(-4deg);
+}
+.sri-padaya-image img:hover{
+	transform: rotate(4deg);
+}
+.vertical-divider1{
+	margin: 50px 830px 0px 0px;
+	border-top: 3px dashed #fff;
+}
+.vertical-divider2{
+	margin: 0px 0px 0px 830px;
+	border-top: 3px dashed #fff;
 }
