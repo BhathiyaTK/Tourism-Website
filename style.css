@@ -262,7 +262,7 @@ nav{
 }
 .attractions-topic h1{
 	font-family: Nunito;
-	font-size: 60px;
+	font-size: 50px;
 	color: #fff;
 	text-align: center;
 	letter-spacing: 2px;
@@ -277,7 +277,7 @@ nav{
 	padding: 20px;
 	border-right: 3px dashed #fff;
 }
-.sinharaja-content h1, .sri-padaya-content h1{
+.sinharaja-content h3, .sri-padaya-content h3{
 	color: #fff;
 	font-family: Nunito;
 	letter-spacing: 1px;
@@ -287,17 +287,20 @@ nav{
 	display: inline-flex;
 }
 .sinharaja-para, .sri-padaya-para{
-	width: 60%;
+	width: 65%;
 }
 .sinharaja-para p, .sri-padaya-para p{
+	font-size: 14px;
 	font-family: Nunito;
 	color: #999;
 }
 .sinharaja-para a, .sri-padaya-para a{
 	color: #fff;
+	font-size: 13px;
 	text-decoration: none;
 	padding: 5px 10px;
 	border: 2px solid #fff;
+	border-radius: 15px 0 15px 0; 
 	transition: 0.4s;
 }
 .sinharaja-para a:hover, .sri-padaya-para a:hover{
@@ -308,11 +311,11 @@ nav{
 	text-align: right;
 }
 .sinharaja-image{
-	width: 40%;
-	padding: 20px 0px 0px 25px;
+	width: 32%;
+	padding: 10px 0px 0px 25px;
 }
 .sri-padaya-image{
-	width: 35%;
+	width: 30%;
 	padding: 20px 25px 0px 0px;
 }
 .sinharaja-image img, .sri-padaya-image img{
