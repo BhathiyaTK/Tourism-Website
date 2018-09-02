@@ -136,6 +136,8 @@ nav{
 	transform: (50%, 50%)
 }
 #main-title{
+	font-family: Roboto;
+	font-weight: 100;
 	font-size: 60px;
 	text-shadow: 5px 5px 10px black;
 }
@@ -258,7 +260,15 @@ nav{
 .top-attractions-content{
 	width: 90%;
 	margin: 0 auto;
-	padding: 40px 0;
+	padding: 0px 0 40px 0;
+}
+.attractions-topic{
+	width: 40%;
+	margin: 0 auto;
+	padding: 15px 0;
+	background: #06a809;
+	border-radius: 0 0 50px 50px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
 }
 .attractions-topic h1{
 	font-family: Nunito;
@@ -336,4 +346,100 @@ nav{
 .vertical-divider2{
 	margin: 0px 0px 0px 830px;
 	border-top: 3px dashed #fff;
+}
+/*///////////////////////////slider part and trip booking part\\\\\\\\\\\*/
+.access-section{
+	width: 90%;
+	margin: 30px auto;
+	display: flex;
+}
+.tourism-news-carousal-div{
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+#slider-title h1, #accommodation-title h1{
+	font-family: Roboto;
+	font-weight: 300;
+}
+#slider-title span, #accommodation-title span{
+	font-weight: 700;
+}
+#slider{
+	width: 100%;
+	overflow: hidden;
+}
+#slider figure{
+	width: 400%;
+	position: relative;
+	margin: 0;
+	left: 0;
+	-webkit-animation: 20s slider infinite;
+	-moz-animation: 20s slider infinite;
+	animation: 20s slider infinite;
+}
+#slider figure img{
+	width: 25%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+.book-accommodation-div{
+	width: 50%;
+	margin: 0;
+	padding: 0 50px;
+}
+.collapse{
+	border-bottom: 2px solid #fff;
+}
+.collapse h4{
+	color: #fff;
+	font-family: Roboto;
+	letter-spacing: 1px;
+	font-size: 19px;
+	padding: 10px 20px; 
+	margin: 0;
+	background: #4d4f4d;
+	cursor: pointer;
+}
+.collapse p{
+	background: #111;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px 30px;
+	margin: 0;
+	display: none;
+}
+.open{
+	margin-right: 20px;
+}
+.close{
+	margin-right: 20px;
 }
