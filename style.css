@@ -354,7 +354,7 @@ nav{
 	display: flex;
 }
 .tourism-news-carousal-div{
-	width: 50%;
+	width: 60%;
 	margin: 0;
 	padding: 0;
 }
@@ -412,34 +412,47 @@ nav{
 	}
 }
 .book-accommodation-div{
-	width: 50%;
+	width: 40%;
 	margin: 0;
 	padding: 0 50px;
 }
-.collapse{
-	border-bottom: 2px solid #fff;
+.fa-plus{
+	margin-right: 20px;
 }
-.collapse h4{
-	color: #fff;
-	font-family: Roboto;
-	letter-spacing: 1px;
-	font-size: 19px;
-	padding: 10px 20px; 
+button.collapse{
+	width: 100%;
+	border: none;
+	outline: none;
+	font-family: Nunito;
+	font-size: 18px;
 	margin: 0;
-	background: #4d4f4d;
+	padding: 10px 20px;
+	text-align: left;
+	background: #ddd;
 	cursor: pointer;
+	transition: background 0.2s linear;
 }
-.collapse p{
-	background: #111;
+button.collapse::after{
+	content: '\f067';
+	font-family: "fontawesome";
+	font-size: 17px;
+	padding: 5px 20px 5px 0;
+	float: left;
+}
+button.collapse.active::after{
+	content: '\f068';
+}
+button.collapse:hover, button.collapse.active{
+	background: #112233;
 	color: #fff;
-	font-size: 15px;
-	padding: 15px 30px;
-	margin: 0;
-	display: none;
 }
-.open{
-	margin-right: 20px;
-}
-.close{
-	margin-right: 20px;
+.collapse-content{
+	padding: 0 20px;
+	line-height: 30px;
+	border-left: 2px solid #eee; 
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-in-out;
 }
