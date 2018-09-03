@@ -443,8 +443,7 @@ button.collapse.active::after{
 	content: '\f068';
 }
 button.collapse:hover, button.collapse.active{
-	background: #112233;
-	color: #fff;
+	background: #adadad;
 }
 .collapse-content{
 	padding: 0 20px;
@@ -454,5 +453,6 @@ button.collapse:hover, button.collapse.active{
 	border-bottom: 2px solid #eee;
 	max-height: 0;
 	overflow: hidden;
+	background: whitesmoke;
 	transition: max-height 0.2s ease-in-out;
 }
