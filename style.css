@@ -8,7 +8,8 @@ header{
 	height: 100vh;
 	background: url(images/Adams-Peak-2.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
+	background-attachment: fixed;
 }
 nav{
 	width: 100%;
@@ -255,7 +256,13 @@ nav{
 .top-attractions{
 	width: 100%;
 	height: auto;
-	background: #112233;
+	background: url(images/image10.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+}
+.top-attractions-back{
+	width: 100%;
+	background: rgba(0,0,0,0.75);
 }
 .top-attractions-content{
 	width: 90%;
@@ -455,4 +462,9 @@ button.collapse:hover, button.collapse.active{
 	overflow: hidden;
 	background: whitesmoke;
 	transition: max-height 0.2s ease-in-out;
+}
+/*/////////////////////////footer\\\\\\\\\\\\\\\\*/
+
+.footer{
+	background: #112233;
 }
