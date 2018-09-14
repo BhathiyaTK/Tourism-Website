@@ -491,10 +491,12 @@ button.collapse:hover, button.collapse.active{
 	color: whitesmoke;
 	font-size: 15px;
 	text-decoration: none;
+	line-height: 20px;
+	transition: 0.4s;
 }
 .footer-refs-content-1 ul li a:hover, .footer-refs-content-2 ul li a:hover, .footer-refs-content-3 ul li a:hover{
 	color: #42b3f4;
-	transition: 0.1s;
+	padding-left: 10px;
 }
 .footer-content{
 	display: flex;
@@ -537,6 +539,11 @@ button.collapse:hover, button.collapse.active{
 	width: 15%;
 	padding: 0;
 }
-#footer-align-right i{
-	margin: 0 3px;
+#footer-align-right a{
+	padding: 0 4px;
+	color: #fff;
+	transition: 0.3s;
+}
+#footer-align-right a:hover{
+	color: #43b9e0;
 }
