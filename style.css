@@ -55,18 +55,57 @@ nav{
 	background-color: rgba(0,0,0,0.7);
 }
 .lower_navbar_content{
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 .lower_navbar .logo{
-	float: left;
+	float: right;
 	height: 50px;
 	padding: 10px 0px;
 }
 .lower_navbar .logo img{
-	width: 60%;
+	width: auto;
+	height: 100%;
 }
-.lower_navbar ul{
+.lower_navbar .dropdown-menu{
+	width: 40%;
+}
+.lower_navbar .dropdown-menu , .lower_navbar .dropdown-menu ul{
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.lower_navbar .dropdown-menu li a, .lower_navbar .dropdown-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.lower_navbar .dropdown-menu li{
+	display: inline-block;
+	padding: 25px 0;
+}
+.lower_navbar .dropdown-menu li:hover{
+	background: #444;
+}
+.lower_navbar .dropdown-menu li a{
+	padding: 20px;
+}
+.lower_navbar .dropdown-menu ul{
+	display: none;
+	margin-top: 25px;
+}
+.lower_navbar .dropdown-menu ul li{
+	padding: 10px 0px;
+	display: block;
+	background: #000;
+}
+.lower_navbar .dropdown-menu ul li:hover{
+	background: #222;
+}
+.lower_navbar .dropdown-menu li:hover ul{
+	display: block;
+}
+/*.lower_navbar ul{
 	float: right;
 	padding: 0;
 	margin: 0;
@@ -120,7 +159,7 @@ nav{
 .lower_navbar ul li a:focus ~ .nav-content{
 	max-height: 400px;
 	transition: max-height 0.4s ease-in;
-}
+}*/
 .fas{
 	padding-left: 8px;
 }
@@ -262,7 +301,7 @@ nav{
 }
 .top-attractions-back{
 	width: 100%;
-	background: rgba(0,0,0,0.75);
+	background: rgba(0,0,0,0.65);
 }
 .top-attractions-content{
 	width: 90%;
