@@ -83,6 +83,7 @@ nav{
 .lower_navbar .dropdown-menu li{
 	display: inline-block;
 	padding: 25px 0;
+	transition: 0.3s;
 }
 .lower_navbar .dropdown-menu li:hover{
 	background: #444;
