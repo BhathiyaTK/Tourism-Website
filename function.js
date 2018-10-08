@@ -132,7 +132,6 @@ collapse6.onclick = function(){
 	}
 }
 
-
 /*var collapses = document.getElementsByClassName("collapse");
 
 for (var i = 0; i < collapses.length; i++) {
