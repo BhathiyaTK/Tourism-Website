@@ -55,7 +55,7 @@ nav{
 	background-color: rgba(0,0,0,0.7);
 }
 .lower_navbar_content{
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 }
 .lower_navbar .logo{
@@ -96,12 +96,12 @@ nav{
 	margin-top: 25px;
 }
 .lower_navbar .dropdown-menu ul li{
-	padding: 10px 0px;
+	padding: 15px 0px;
 	display: block;
 	background: #000;
 }
 .lower_navbar .dropdown-menu ul li:hover{
-	background: #222;
+	background: #333;
 }
 .lower_navbar .dropdown-menu li:hover ul{
 	display: block;
@@ -185,6 +185,8 @@ nav{
 #sub-title{
 	font-family: Nunito;
 	font-size: 25px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
 	margin: 10px 0 20px 0;
 	text-shadow: 5px 5px 10px black;
 }
