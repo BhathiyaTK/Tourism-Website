@@ -1,0 +1,10 @@
+*{
+	font: 1em Roboto;
+}
+header{
+	width: 100%;
+	height: 65vh;
+	background: url(images/festive1.jpg);
+	background-position: center;
+	background-size: cover;
+}
