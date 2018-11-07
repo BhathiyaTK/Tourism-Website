@@ -96,9 +96,16 @@ h1 {
 
 .tabordion input[name="sections"]:checked + label { 
   background: #eee;
-  color: #bbb;
+  color: #999;
 }
 
 .tabordion input[name="sections"]:checked ~ article {
   display: block;
+}
+a{
+  text-decoration: none;
+  color: darkorange;
+}
+a:hover{
+  text-decoration: overline;
 }
