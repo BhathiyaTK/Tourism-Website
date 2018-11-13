@@ -1,0 +1,21 @@
+*{
+	font: 1em Roboto;
+}
+header{
+	width: 100%;
+	height: 65vh;
+	background: url(images/sri-lanka-kandy-city.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.header-title{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	height: 300px;
+	font-family: Roboto;
+	color: white;
+	top: 32%;
+	left: 22%;
+	transform: (50%, 50%)
+}
