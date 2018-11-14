@@ -1,0 +1,78 @@
+*{
+	font: 1em Roboto;
+}
+header{
+	width: 100%;
+	height: 65vh;
+	background: url(images/sri-lanka-kandy-city.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.header-title{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	height: 300px;
+	font-family: Roboto;
+	color: white;
+	top: 32%;
+	left: 24%;
+	transform: (50%, 50%)
+}
+.page-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.apartment-content{
+	width: 100%;
+	padding: 10px 0 40px 0;
+}
+.lodge-divs{
+	width: 100%;
+	display: flex;
+}
+#hotels .image-box, #bunglows .image-box, #villas .image-box, #rented-houses .image-box{
+	position: relative;
+	overflow: hidden;
+}
+#hotels .image-box img, #bunglows .image-box img, #villas .image-box img, #rented-houses .image-box img{
+	width: 100%;
+	border-radius: 15px;
+  	transition: transform 1s;
+}
+#hotels:hover .image-box img, #bunglows:hover .image-box img, #villas:hover .image-box img, #rented-houses:hover .image-box img{
+	transform: scale(1.1);
+}
+#hotels{
+	padding: 20px; 
+	margin-bottom: 30px;
+	background-color: #d5d9e0;
+	border-radius: 20px;
+	transition: 0.4s;
+}
+.lodge-small-divs{
+	width: 30%;
+	background-color: #d5d9e0;
+	border-radius: 20px;
+	padding: 20px; 
+	transition: 0.4s;
+}
+#bunglows, #villas{
+	margin-right: 30px;
+}
+.lodge-div-title{
+	text-align: center;
+	font-family: Roboto;
+	font-weight: 700;
+	margin-top: 10px;
+	font-size: 19px;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+#hotels:hover, .lodge-small-divs:hover{
+	box-shadow: 0 6px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 4px rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+#hotels:hover .lodge-div-title, .lodge-small-divs:hover .lodge-div-title{
+	color: #1687af;
+}
