@@ -106,61 +106,6 @@ nav{
 .lower_navbar .dropdown-menu li:hover ul{
 	display: block;
 }
-/*.lower_navbar ul{
-	float: right;
-	padding: 0;
-	margin: 0;
-	display: inline-flex;
-}
-.lower_navbar ul li{
-	list-style-type: none;
-	display: inline-block;
-	line-height: 70px;
-	font-size: 11pt;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-.lower_navbar ul li a{
-	color: #fff;
-	text-decoration: none;
-	padding: 25px 20px;
-}
-.lower_navbar ul li:hover{
-	background-color:#444;
-	transition: 0.3s;
-}
-.nav-content{
-	position: absolute;
-	top: 112px;
-	overflow: hidden;
-	background-color: #111;
-	max-height: 0;
-}
-.nav-sub ul{
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	display: block;
-}
-.nav-sub ul li{
-	display: block;
-	line-height: 50px;
-	padding: 0 20px;
-	height: 50px;
-	font-size: 11pt;
-	text-transform: none;
-}
-.nav-sub ul li a{
-	display: inline-block;
-	padding:0;
-}
-.lower_navbar ul li a:focus{
-	background-color: #444;
-}
-.lower_navbar ul li a:focus ~ .nav-content{
-	max-height: 400px;
-	transition: max-height 0.4s ease-in;
-}*/
 .fas{
 	padding-left: 8px;
 }
