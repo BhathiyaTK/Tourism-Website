@@ -126,6 +126,7 @@ nav{
 	font-weight: 100;
 	font-size: 60px;
 	text-shadow: 5px 5px 10px black;
+	cursor:default;
 }
 #sub-title{
 	font-family: Nunito;
@@ -134,6 +135,7 @@ nav{
 	word-spacing: 5px;
 	margin: 10px 0 20px 0;
 	text-shadow: 5px 5px 10px black;
+	cursor:default;
 }
 #main-title span{
 	font-weight: 700;
@@ -271,6 +273,7 @@ nav{
 	text-align: center;
 	letter-spacing: 2px;
 	margin: 0;
+	cursor: default;
 }
 .sinharaja{
 	padding: 20px;
@@ -285,6 +288,7 @@ nav{
 	color: #fff;
 	font-family: Nunito;
 	letter-spacing: 1px;
+	cursor: default;
 }
 .sinharaja-content, .sri-padaya-content{
 	width: 100%;
@@ -341,6 +345,7 @@ nav{
 	margin: 0px 0px 0px 830px;
 	border-top: 3px dashed #fff;
 }
+
 /*///////////////////////////slider part and trip booking part\\\\\\\\\\\*/
 .access-section{
 	width: 90%;
@@ -355,6 +360,7 @@ nav{
 #slider-title h1, #accommodation-title h1{
 	font-family: Roboto;
 	font-weight: 300;
+	cursor: default;
 }
 #slider-title span, #accommodation-title span{
 	font-weight: 700;
