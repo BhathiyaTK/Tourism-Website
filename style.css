@@ -124,7 +124,7 @@ nav{
 #main-title{
 	font-family: Roboto;
 	font-weight: 100;
-	font-size: 60px;
+	font-size: 66px;
 	text-shadow: 5px 5px 10px black;
 }
 #sub-title{
@@ -148,7 +148,7 @@ nav{
 	line-height: 50px;
 	width: 480px;
 	border: none;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: Roboto;
 	font-weight: 700;
 	background: rgba(255,255,255, 0.6);
