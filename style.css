@@ -14,7 +14,7 @@ header{
 nav{
 	width: 100%;
 	height: auto;
-	color: #fff;
+	color: rgb(44, 19, 189);
 	z-index: 999;
 }
 .upper_navbar{
