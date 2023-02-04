@@ -213,6 +213,11 @@ nav{
 	transition: .5s ease;
 
 }
+.text
+{
+	text-align: center;
+	font-size: medium;
+}
 .image-set .image-box .image-content .text{
 	position: absolute;
 	text-transform: uppercase;
