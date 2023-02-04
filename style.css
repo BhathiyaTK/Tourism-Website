@@ -509,7 +509,7 @@ button.collapse:hover, button.collapse.active{
 }
 .lower-footer{
 	width: 100%;
-	height: ;
+	height: auto;
 	color: #fff;
 	font-size: 13px;
 	font-family: Roboto;
