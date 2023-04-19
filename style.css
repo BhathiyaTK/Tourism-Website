@@ -79,6 +79,7 @@ nav{
 .lower_navbar .dropdown-menu li a, .lower_navbar .dropdown-menu ul li a{
 	text-decoration: none;
 	color: #fff;
+	
 }
 .lower_navbar .dropdown-menu li{
 	display: inline-block;
@@ -104,7 +105,9 @@ nav{
 	background: #333;
 }
 .lower_navbar .dropdown-menu li:hover ul{
-	display: block;
+	display: flex;
+	flex-direction: column;
+	width: max-content;
 }
 .fas{
 	padding-left: 8px;
